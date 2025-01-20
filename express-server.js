@@ -41,7 +41,7 @@
 
 const express = require("express");
 const { v4: uuidv4 } = require("uuid");
-const { items } = require("./data.js");
+const { items } = require("./data");
 
 const app = express();
 const PORT = 8000;
